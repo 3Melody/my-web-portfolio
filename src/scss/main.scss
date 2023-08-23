@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'kanit',sans-serif;
+}
+
+
+$g-color:#181532;
+$text-gradient:linear-gradient(93deg, #00C2FF 0%, #7FCBBA 100%);
+
+
+body {
+  background-color: $g-color;
+  color: white;
+}
+
+.section{
+    min-height: 100vh;
+}
+
+.main-content{
+    padding: 22px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.header i{
+    font-size: 43px;
+    color: white;
+    cursor: pointer;
+}
+
+.image-profile img{ 
+    width: 297px;
+    height: 374px;
+}
+
+.image-profile{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 83px;
+    flex-direction: column;
+}
+
+.back-profile{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 373px;
+    height: 291px;
+    border-radius: 26px;
+    background: linear-gradient(99deg, #2D4C41 0%, #344130 100%);
+    box-shadow: 0px 14px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.head-gradient{
+    background: linear-gradient(93deg, #00C2FF 0%, #7FCBBA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.profile-script{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-start{
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 14px 60px;
+    border-radius: 6px;
+    background: #7FCBBA;
+    border-style: none;
+    margin-top: 60px;
+}
+
+.online-contact i{
+   opacity: 50%;
+   font-size: 22px;
+   margin-top: 20px;
+   padding: 0 10px;
+   cursor: pointer;
+}
