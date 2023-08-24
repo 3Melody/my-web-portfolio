@@ -8,7 +8,7 @@ body {
   background-color: #181532;
   color: white; }
 
-.section {
+section {
   min-height: 100vh; }
 
 .main-content {
@@ -56,7 +56,7 @@ body {
   box-shadow: 0px 14px 6px 0px rgba(0, 0, 0, 0.25); }
 
 .head-gradient {
-  background: linear-gradient(93deg, #00C2FF 0%, #7FCBBA 100%);
+  background: gradient();
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -87,3 +87,16 @@ body {
   margin-top: 20px;
   padding: 0 10px;
   cursor: pointer; }
+
+.profile-two {
+  width: 195px;
+  height: 334px;
+  flex-shrink: 0;
+  background-color: white; }
+
+.main-page-2 {
+  display: flex;
+  padding-top: 90px; }
+
+.color-main {
+  background: gradient(); }
